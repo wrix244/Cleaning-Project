@@ -1,0 +1,12 @@
+{
+"scripts": {
+  "purge": "purgecss --content ./index.html ./service-pages/**/*.html ./js/**/*.js --css ./style.css --output ./"
+},
+
+
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^10.1.0"
+  }
+}
